@@ -6,8 +6,8 @@ import "./App.css";
 // import Home from "./Components";
 import About from "./pages/about";
 // import Portfolio from "./pages/portfolio";
-// import Contact from "./pages/contact";
-// import Resume from "./pages/resume";
+import Contact from "./pages/contact";
+import Resume from "./pages/resume";
 import * as ReactBootStrap from "react-bootstrap";
 
 function App() {
@@ -69,6 +69,15 @@ function App() {
         </ReactBootStrap.Navbar>
       </div>
       <About />
+      <div>
+        <Contact />
+      </div>
+      {/* <div>
+        <Portfolio />
+      </div> */}
+      <div>
+        <Resume />
+      </div>
     </>
   );
 }
