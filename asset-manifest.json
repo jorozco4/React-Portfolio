@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.518ce94c.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.c9524d99.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.c9524d99.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.7296fe1b.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.7296fe1b.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
     "static/css/2.150d169a.chunk.css": "/react-portfolio/static/css/2.150d169a.chunk.css",
@@ -16,13 +16,14 @@
     "static/media/NoteTaker.9a63c0c5.png": "/react-portfolio/static/media/NoteTaker.9a63c0c5.png",
     "static/media/Password-Generator.71e436bc.png": "/react-portfolio/static/media/Password-Generator.71e436bc.png",
     "static/media/SneakerHype.8c7a4e03.png": "/react-portfolio/static/media/SneakerHype.8c7a4e03.png",
-    "static/media/Work-Day-Scheduler.2c4da500.png": "/react-portfolio/static/media/Work-Day-Scheduler.2c4da500.png"
+    "static/media/Work-Day-Scheduler.2c4da500.png": "/react-portfolio/static/media/Work-Day-Scheduler.2c4da500.png",
+    "static/media/resume.9dbd8913.png": "/react-portfolio/static/media/resume.9dbd8913.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fae9f92b.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.c989086f.chunk.js",
     "static/css/main.518ce94c.chunk.css",
-    "static/js/main.c9524d99.chunk.js"
+    "static/js/main.7296fe1b.chunk.js"
   ]
 }
