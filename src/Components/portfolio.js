@@ -1,4 +1,10 @@
 import React from "react";
+// import { Generator } from "webpack";
+import Homies from "../img/Homies.png";
+import SneakerHype from "../img/SneakerHype.png";
+import Password from "../img/Password-Generator.png";
+import WorkDayScheduler from "../img/Work-Day-Scheduler.png";
+import NoteTaker from "../img/NoteTaker.png";
 
 const Section = () => {
   return (
@@ -16,47 +22,41 @@ const Section = () => {
           <div className="col-sm-12 col-md-4 porfolio-item--card">
             <div className="portfolio-item--title">Homies</div>
             <a href="https://tsilvab.github.io/Homies/">
-              <img src="./img/Homies.jpg" alt="Image 2" />
+              <img src={Homies} alt="Homies" width="193" height="130" />
             </a>
           </div>
           <div className="col-sm-12 col-md-4 porfolio-item--card">
             <div className="portfolio-item--title">Sneaker-Hype</div>
             <a href="https://sneakerhype.herokuapp.com/">
               <img
-                src="./img/SneakerHype.jpg"
-                className="gallery__img img-fluid"
-                alt="Image 3"
+                src={SneakerHype}
+                alt="SneakerHype"
+                width="193"
+                height="130"
               />
             </a>
           </div>
           <div className="col-sm-12 col-md-4 porfolio-item--card">
             <div className="portfolio-item--title">Password-Generator</div>
             <a href="https://jorozco4.github.io/Homework-3/">
-              <img
-                src="./img/Password-Generator.jpg"
-                className="gallery__img img-fluid"
-                alt="Image 3"
-              />
+              <img src={Password} alt="Password" width="193" height="130" />
             </a>
           </div>
           <div className="col-sm-12 col-md-4 porfolio-item--card">
             <div className="portfolio-item--title">Work-Day-Schedule</div>
             <a href="https://jorozco4.github.io/Homework5/">
               <img
-                src="./img/Work-Day-Scheduler.jpg"
-                className="gallery__img img-fluid"
-                alt="Image 4"
+                src={WorkDayScheduler}
+                alt="WorkDayScheduler"
+                width="193"
+                height="130"
               />
             </a>
           </div>
           <div className="col-sm-12 col-md-4 porfolio-item--card">
             <div className="portfolio-item--title">Note-Taker</div>
             <a href="https://hidden-ocean-60791.herokuapp.com/">
-              <img
-                src="./img/NoteTaker.jpg"
-                className="gallery__img img-fluid"
-                alt="Image 5"
-              />
+              <img src={NoteTaker} alt="NoteTaker" width="193" height="130" />
             </a>
           </div>
         </div>
