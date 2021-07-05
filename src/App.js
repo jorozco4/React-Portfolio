@@ -9,6 +9,7 @@ import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
 import Resume from "./components/resume";
 import * as ReactBootStrap from "react-bootstrap";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -51,6 +52,9 @@ function App() {
       </div>
       <div>
         <Resume />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   );
