@@ -5,68 +5,88 @@ import SneakerHype from "../../img/SneakerHype.png";
 import Password from "../../img/Password-Generator.png";
 import WorkDayScheduler from "../../img/Work-Day-Scheduler.png";
 import NoteTaker from "../../img/NoteTaker.png";
+import SocialFollow from "../../components/SocialFollow";
 
 const styles = {
   card: {
     background: "#6a040f",
+    // width: "100%",
+    height: "100%",
+  },
+  font: {
+    color: "white",
   },
 };
 
 const Portfolio = () => {
   return (
     <>
-      <div className="container" id="projects">
-        <div className="row justify-content-start">
-          <div className="col-2">
-            <h1 id="section-title">Projects/Activities</h1>
+      <section style={styles.card}>
+        <div className="container" style={styles.card}>
+          <div className="col-2" style={styles.card}>
+            <h1 id="section-title" style={styles.font}>
+              Projects/Activities
+            </h1>
+          </div>
+          <div className="row" style={styles.card}>
+            <div
+              className="col-sm-12 col-md-4 porfolio-item--card"
+              style={styles.card}
+            >
+              <div className="portfolio-item--title" style={styles.font}>
+                Homies
+              </div>
+              <a href="https://tsilvab.github.io/Homies/">
+                <img src={Homies} alt="Homies" width="193" height="130" />
+              </a>
+            </div>
+            <div className="col-sm-12 col-md-4 porfolio-item--card">
+              <div className="portfolio-item--title" style={styles.font}>
+                Sneaker-Hype
+              </div>
+              <a href="https://sneakerhype.herokuapp.com/">
+                <img
+                  src={SneakerHype}
+                  alt="SneakerHype"
+                  width="193"
+                  height="130"
+                />
+              </a>
+            </div>
+            <div className="col-sm-12 col-md-4 porfolio-item--card">
+              <div className="portfolio-item--title" style={styles.font}>
+                Password-Generator
+              </div>
+              <a href="https://jorozco4.github.io/Homework-3/">
+                <img src={Password} alt="Password" width="193" height="130" />
+              </a>
+            </div>
+            <div className="col-sm-12 col-md-4 porfolio-item--card">
+              <div className="portfolio-item--title" style={styles.font}>
+                Work-Day-Schedule
+              </div>
+              <a href="https://jorozco4.github.io/Homework5/">
+                <img
+                  src={WorkDayScheduler}
+                  alt="WorkDayScheduler"
+                  width="193"
+                  height="130"
+                />
+              </a>
+            </div>
+            <div className="col-sm-12 col-md-4 porfolio-item--card">
+              <div className="portfolio-item--title" style={styles.font}>
+                Note-Taker
+              </div>
+              <a href="https://hidden-ocean-60791.herokuapp.com/">
+                <img src={NoteTaker} alt="NoteTaker" width="193" height="130" />
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="container" style={styles.card}>
-        <div className="row">
-          <div className="col-sm-12 col-md-4 porfolio-item--card">
-            <div className="portfolio-item--title">Homies</div>
-            <a href="https://tsilvab.github.io/Homies/">
-              <img src={Homies} alt="Homies" width="193" height="130" />
-            </a>
-          </div>
-          <div className="col-sm-12 col-md-4 porfolio-item--card">
-            <div className="portfolio-item--title">Sneaker-Hype</div>
-            <a href="https://sneakerhype.herokuapp.com/">
-              <img
-                src={SneakerHype}
-                alt="SneakerHype"
-                width="193"
-                height="130"
-              />
-            </a>
-          </div>
-          <div className="col-sm-12 col-md-4 porfolio-item--card">
-            <div className="portfolio-item--title">Password-Generator</div>
-            <a href="https://jorozco4.github.io/Homework-3/">
-              <img src={Password} alt="Password" width="193" height="130" />
-            </a>
-          </div>
-          <div className="col-sm-12 col-md-4 porfolio-item--card">
-            <div className="portfolio-item--title">Work-Day-Schedule</div>
-            <a href="https://jorozco4.github.io/Homework5/">
-              <img
-                src={WorkDayScheduler}
-                alt="WorkDayScheduler"
-                width="193"
-                height="130"
-              />
-            </a>
-          </div>
-          <div className="col-sm-12 col-md-4 porfolio-item--card">
-            <div className="portfolio-item--title">Note-Taker</div>
-            <a href="https://hidden-ocean-60791.herokuapp.com/">
-              <img src={NoteTaker} alt="NoteTaker" width="193" height="130" />
-            </a>
-          </div>
-        </div>
-      </div>
+      </section>
+      <div />
+      <SocialFollow />
     </>
   );
 };
