@@ -1,6 +1,6 @@
 import React from "react";
 
-import Self from "../img/cool.png";
+// import Self from "../img/cool.png";
 
 const styles = {
   card: {
@@ -12,13 +12,13 @@ const styles = {
   },
 };
 
-function About() {
+export default function About() {
   return (
     <section className="section" style={styles.card}>
       <h2 style={styles.font}>About me</h2>
-      <a>
+      {/* <a>
         <img src={Self} alt="Self" width="193" height="130" />
-      </a>
+      </a> */}
       <p style={styles.font}>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
@@ -61,5 +61,3 @@ function About() {
     </section>
   );
 }
-
-export default About;

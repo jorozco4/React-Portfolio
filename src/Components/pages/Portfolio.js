@@ -1,12 +1,18 @@
 import React from "react";
 // import { Generator } from "webpack";
-import Homies from "../img/Homies.png";
-import SneakerHype from "../img/SneakerHype.png";
-import Password from "../img/Password-Generator.png";
-import WorkDayScheduler from "../img/Work-Day-Scheduler.png";
-import NoteTaker from "../img/NoteTaker.png";
+import Homies from "../../img/Homies.png";
+import SneakerHype from "../../img/SneakerHype.png";
+import Password from "../../img/Password-Generator.png";
+import WorkDayScheduler from "../../img/Work-Day-Scheduler.png";
+import NoteTaker from "../../img/NoteTaker.png";
 
-const Section = () => {
+const styles = {
+  card: {
+    background: "#6a040f",
+  },
+};
+
+const Portfolio = () => {
   return (
     <>
       <div className="container" id="projects">
@@ -17,7 +23,7 @@ const Section = () => {
         </div>
       </div>
 
-      <div className="container">
+      <div className="container" style={styles.card}>
         <div className="row">
           <div className="col-sm-12 col-md-4 porfolio-item--card">
             <div className="portfolio-item--title">Homies</div>
@@ -65,4 +71,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default Portfolio;

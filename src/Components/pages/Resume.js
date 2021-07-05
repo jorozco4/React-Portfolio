@@ -1,12 +1,23 @@
 import React from "react";
-import Resume from "../img/resume.png";
+import Resume from "../../img/resume.png";
+
+const styles = {
+  card: {
+    background: "#6a040f",
+  },
+  font: {
+    color: "white",
+  },
+};
 
 function Resumes() {
   return (
-    <div class="container" id="resume">
+    <div class="container" id="resume" style={styles.card}>
       <div class="row">
         <div class="col">
-          <h1 class="self-resume">Resume</h1>
+          <h1 class="self-resume" style={styles.font}>
+            Resume
+          </h1>
           <img src={Resume} alt="Resume" width="193" height="130" />
 
           {/* <button className="button">

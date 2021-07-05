@@ -2,15 +2,16 @@
 
 # Title
 
-Budget-Tracker
+React Portfolio
 
 # ScreenShots
 
 ## Description
 
-- AS AN avid traveller
-  I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-  SO THAT my account balance is accurate when I am traveling
+- md
+  AS AN employer looking for candidates with experience building single-page applications
+  I WANT to view a potential employee's deployed React portfolio of work samples
+  SO THAT I can assess whether they're a good candidate for an open position
 
 ## Installation
 
