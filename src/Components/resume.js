@@ -1,7 +1,7 @@
 import React from "react";
 import Resume from "../img/resume.png";
 
-const Section = () => {
+function Resumes() {
   return (
     <div class="container" id="resume">
       <div class="row">
@@ -30,6 +30,6 @@ const Section = () => {
       </div>
     </div>
   );
-};
+}
 
-export default Section;
+export default Resumes;

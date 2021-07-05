@@ -1,10 +1,25 @@
 import React from "react";
 
-function Section() {
+import Self from "../img/cool.png";
+
+const styles = {
+  card: {
+    background: "#6a040f",
+  },
+
+  font: {
+    color: "white",
+  },
+};
+
+function About() {
   return (
-    <section className="section">
-      <h2>About me</h2>
-      <p>
+    <section className="section" style={styles.card}>
+      <h2 style={styles.font}>About me</h2>
+      <a>
+        <img src={Self} alt="Self" width="193" height="130" />
+      </a>
+      <p style={styles.font}>
         Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
         illo inventore veritatis et quasi architecto beatae vitae dicta sunt
@@ -19,7 +34,7 @@ function Section() {
         quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
         voluptas nulla pariatur?
       </p>
-      <p>
+      <p style={styles.font}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -28,7 +43,7 @@ function Section() {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum.
       </p>
-      <p>
+      <p style={styles.font}>
         At vero eos et accusamus et iusto odio dignissimos ducimus qui
         blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
         et quas molestias excepturi sint occaecati cupiditate non provident,
@@ -47,4 +62,4 @@ function Section() {
   );
 }
 
-export default Section;
+export default About;

@@ -1,3 +1,34 @@
+// import React, { Component } from "react";
+// import { BrowserRouter, Route, Switch } from "react-router-dom";
+
+// import Home from "./components/Home";
+// import About from "./components/about";
+// import Contact from "./components/contact";
+// import Error from "./components/Error";
+// import Navigation from "./components/Navigation";
+// import Portfolio from "./components/portfolio";
+
+// class App extends Component {
+//   render() {
+//     return (
+//       <BrowserRouter>
+//         <div>
+//           <Navigation />
+//           <Switch>
+//             <Route path="/" component={Home} exact />
+//             <Route path="/about" component={About} />
+//             <Route path="/contact" component={Contact} />
+//             <Route path="/portfolio" component={Portfolio} />
+//             <Route component={Error} />
+//           </Switch>
+//         </div>
+//       </BrowserRouter>
+//     );
+//   }
+// }
+
+// export default App;
+
 import React from "react";
 import "./App.css";
 
@@ -9,7 +40,7 @@ import Portfolio from "./components/portfolio";
 import Contact from "./components/contact";
 import Resume from "./components/resume";
 import * as ReactBootStrap from "react-bootstrap";
-import Footer from "./components/footer";
+import Footer from "./components/SocialFollow";
 
 function App() {
   return (
