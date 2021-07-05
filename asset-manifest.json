@@ -1,30 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c11a1321.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.78cf7ea4.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.78cf7ea4.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.137ba06a.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.137ba06a.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
     "static/css/2.150d169a.chunk.css": "/react-portfolio/static/css/2.150d169a.chunk.css",
-    "static/js/2.0cc5f612.chunk.js": "/react-portfolio/static/js/2.0cc5f612.chunk.js",
-    "static/js/2.0cc5f612.chunk.js.map": "/react-portfolio/static/js/2.0cc5f612.chunk.js.map",
+    "static/js/2.24fd51ab.chunk.js": "/react-portfolio/static/js/2.24fd51ab.chunk.js",
+    "static/js/2.24fd51ab.chunk.js.map": "/react-portfolio/static/js/2.24fd51ab.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/react-portfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.c11a1321.chunk.css.map": "/react-portfolio/static/css/main.c11a1321.chunk.css.map",
-    "static/js/2.0cc5f612.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.0cc5f612.chunk.js.LICENSE.txt",
+    "static/js/2.24fd51ab.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.24fd51ab.chunk.js.LICENSE.txt",
     "static/media/Homies.0fa99ea3.png": "/react-portfolio/static/media/Homies.0fa99ea3.png",
     "static/media/NoteTaker.9a63c0c5.png": "/react-portfolio/static/media/NoteTaker.9a63c0c5.png",
     "static/media/Password-Generator.71e436bc.png": "/react-portfolio/static/media/Password-Generator.71e436bc.png",
     "static/media/SneakerHype.8c7a4e03.png": "/react-portfolio/static/media/SneakerHype.8c7a4e03.png",
     "static/media/Work-Day-Scheduler.2c4da500.png": "/react-portfolio/static/media/Work-Day-Scheduler.2c4da500.png",
-    "static/media/cool.4356faf6.png": "/react-portfolio/static/media/cool.4356faf6.png",
     "static/media/resume.9dbd8913.png": "/react-portfolio/static/media/resume.9dbd8913.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fae9f92b.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.0cc5f612.chunk.js",
-    "static/css/main.c11a1321.chunk.css",
-    "static/js/main.78cf7ea4.chunk.js"
+    "static/js/2.24fd51ab.chunk.js",
+    "static/js/main.137ba06a.chunk.js"
   ]
 }
