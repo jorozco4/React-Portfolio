@@ -6,10 +6,11 @@ import Password from "../../img/Password-Generator.png";
 import WorkDayScheduler from "../../img/Work-Day-Scheduler.png";
 import NoteTaker from "../../img/NoteTaker.png";
 import SocialFollow from "../../components/SocialFollow";
+import IntelConnections from "../../img/IntelConnections.png";
 
 const styles = {
   card: {
-    background: "#6a040f",
+    background: "#D3D3D3",
     // width: "100%",
     height: "100%",
   },
@@ -48,6 +49,19 @@ const Portfolio = () => {
                 <img
                   src={SneakerHype}
                   alt="SneakerHype"
+                  width="193"
+                  height="130"
+                />
+              </a>
+            </div>
+            <div className="col-sm-12 col-md-4 porfolio-item--card">
+              <div className="portfolio-item--title" style={styles.font}>
+                Intel-Connections
+              </div>
+              <a href="https://secure-lowlands-30336.herokuapp.com/">
+                <img
+                  src={IntelConnections}
+                  alt="IntelConnections"
                   width="193"
                   height="130"
                 />

@@ -8,6 +8,10 @@ export default function Home() {
     <>
       <div>
         <img src={Aurora} alt="Aurora" width="100%" height="100%" />
+        <h2>
+          <span>Let The Journey Begin</span>
+        </h2>
+
         <div />
         <SocialFollow />
       </div>

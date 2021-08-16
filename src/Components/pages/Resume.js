@@ -5,7 +5,7 @@ import SocialFollow from "../../components/SocialFollow";
 
 const styles = {
   card: {
-    background: "#6a040f",
+    background: "#D3D3D3",
     width: "100%",
     height: "100%",
   },
@@ -40,8 +40,8 @@ function Resumes() {
           </button> */}
 
         <a
-          href="./img/Jesse_Orozco_Software_Developer_2021.pdf"
-          download="jesse-martines-resume-2021"
+          href="./img/Jesse_Orozco_Resume.pdf"
+          download="Jesse_Orozco_Resume.pdf"
           class="btn btn-primary btn-lg"
         >
           Download my Resume!
