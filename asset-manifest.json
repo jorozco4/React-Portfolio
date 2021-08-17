@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.4cdd65ce.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.7d2adec2.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.7d2adec2.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.ee93a513.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.5a1a7001.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.5a1a7001.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.fae9f92b.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.fae9f92b.js.map",
     "static/css/2.150d169a.chunk.css": "/react-portfolio/static/css/2.150d169a.chunk.css",
@@ -10,22 +10,23 @@
     "static/js/2.a90030b5.chunk.js.map": "/react-portfolio/static/js/2.a90030b5.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.150d169a.chunk.css.map": "/react-portfolio/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.4cdd65ce.chunk.css.map": "/react-portfolio/static/css/main.4cdd65ce.chunk.css.map",
+    "static/css/main.ee93a513.chunk.css.map": "/react-portfolio/static/css/main.ee93a513.chunk.css.map",
     "static/js/2.a90030b5.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.a90030b5.chunk.js.LICENSE.txt",
     "static/media/Aurora.c3e0d12f.png": "/react-portfolio/static/media/Aurora.c3e0d12f.png",
     "static/media/Homies.0fa99ea3.png": "/react-portfolio/static/media/Homies.0fa99ea3.png",
+    "static/media/IntelConnections.013f73a8.png": "/react-portfolio/static/media/IntelConnections.013f73a8.png",
+    "static/media/Jesse_Orozco_Resume.f096819a.png": "/react-portfolio/static/media/Jesse_Orozco_Resume.f096819a.png",
     "static/media/NoteTaker.9a63c0c5.png": "/react-portfolio/static/media/NoteTaker.9a63c0c5.png",
     "static/media/Password-Generator.71e436bc.png": "/react-portfolio/static/media/Password-Generator.71e436bc.png",
     "static/media/SneakerHype.8c7a4e03.png": "/react-portfolio/static/media/SneakerHype.8c7a4e03.png",
     "static/media/Work-Day-Scheduler.2c4da500.png": "/react-portfolio/static/media/Work-Day-Scheduler.2c4da500.png",
-    "static/media/cool.4356faf6.png": "/react-portfolio/static/media/cool.4356faf6.png",
-    "static/media/resume.9dbd8913.png": "/react-portfolio/static/media/resume.9dbd8913.png"
+    "static/media/cool.4356faf6.png": "/react-portfolio/static/media/cool.4356faf6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fae9f92b.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.a90030b5.chunk.js",
-    "static/css/main.4cdd65ce.chunk.css",
-    "static/js/main.7d2adec2.chunk.js"
+    "static/css/main.ee93a513.chunk.css",
+    "static/js/main.5a1a7001.chunk.js"
   ]
 }
