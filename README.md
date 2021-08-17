@@ -6,6 +6,10 @@ React Portfolio
 
 # ScreenShots
 
+![image](https://user-images.githubusercontent.com/61666288/124672499-1d635d80-de85-11eb-906a-21cf0de0c5b3.png)
+
+![image](https://user-images.githubusercontent.com/61666288/124672499-1d635d80-de85-11eb-906a-21cf0de0c5b3.png)
+
 ## Description
 
 - md
